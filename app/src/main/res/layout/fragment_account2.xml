@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountFragment">
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/kpic1"
+        android:id="@+id/p1"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/editbutton"
+        android:layout_marginHorizontal="30dp"
+        android:gravity="center"
+        android:hint="Enter First Name"
+        android:padding="9dp"
+        android:textSize="20dp"
+        android:layout_marginTop="7dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="25dp"
+        android:background="@drawable/editbutton"
+        android:gravity="center"
+        android:hint="Enter Second Name"
+        android:padding="9dp"
+        android:layout_marginTop="9dp"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="25dp"
+        android:background="@drawable/editbutton"
+        android:gravity="center"
+        android:hint="Enter Email"
+        android:padding="9dp"
+        android:layout_marginTop="9dp"
+        android:textSize="20dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="25dp"
+        android:background="@drawable/editbutton"
+        android:gravity="center"
+        android:hint="Enter Phone Number"
+        android:padding="9dp"
+        android:layout_marginTop="9dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="25dp"
+        android:background="@drawable/editbutton"
+        android:gravity="center"
+        android:hint="Enter Password"
+        android:padding="10dp"
+        android:layout_marginTop="9dp"
+        android:textSize="20dp"
+        />
+       <Button
+           android:layout_width="100dp"
+           android:layout_height="40dp"
+            android:hint="Change"
+           ></Button>
+   </LinearLayout>
+</FrameLayout>
